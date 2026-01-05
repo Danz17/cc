@@ -85,3 +85,6 @@
 [submodule "tools/awesome-claude-agents"]
 	path = tools/awesome-claude-agents
 	url = https://github.com/vijaythecoder/awesome-claude-agents
+[submodule "tools/fastmcp"]
+	path = tools/fastmcp
+	url = https://github.com/jlowin/fastmcp
