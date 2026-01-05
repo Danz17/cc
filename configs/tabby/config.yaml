@@ -1,0 +1,499 @@
+version: 7
+profiles:
+  - name: Git Bash
+    icon: >-
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 113.925
+      113.923"><defs><clipPath id="aaaaaaaa"><path d="M0
+      0h2183.73v912H0V0z"></path></clipPath><clipPath id="bbbbbbbb"><path
+      d="M230.892 51.977L181.15 2.238a7.336 7.336 0 00-10.375 0l-10.328 10.33
+      13.102 13.102c3.046-1.028 6.537-.339 8.964 2.089a8.72 8.72 0 012.07
+      9.02l12.627 12.627c3.055-1.053 6.58-.373 9.02 2.07a8.727 8.727 0 010
+      12.346 8.729 8.729 0 01-12.349 0 8.734 8.734 0 01-1.9-9.494L180.204
+      42.55v30.99a8.806 8.806 0 012.309 1.652c3.41 3.409 3.41 8.933 0
+      12.347-3.411 3.41-8.938 3.41-12.346 0-3.41-3.414-3.41-8.938 0-12.347a8.735
+      8.735 0 012.859-1.905V42.009a8.636 8.636 0 01-2.859-1.905 8.728 8.728 0
+      01-1.88-9.544L155.37 17.642l-34.106 34.105a7.339 7.339 0 000 10.378l49.742
+      49.74a7.338 7.338 0 0010.376 0l49.509-49.51a7.341 7.341 0 000-10.378"
+      fill="#f03c2e"></path></clipPath></defs><g transform="translate(-119.116
+      -.075)" clip-path="url(#bbbbbbbb)"><path
+      d="M230.435-10.813l-49.742-49.739a7.336 7.336 0 00-10.374 0l-49.51
+      49.51a7.339 7.339 0 000 10.378l49.741 49.738a7.338 7.338 0 0010.376
+      0l49.51-49.508a7.341 7.341 0 000-10.379" fill="#ff8080"></path><path
+      d="M293.393 51.928L243.65 2.188a7.336 7.336 0 00-10.375 0c-16.502
+      16.505-33.006 33.007-49.51 49.51a7.339 7.339 0 000 10.378l49.742
+      49.739a7.338 7.338 0 0010.376 0l49.509-49.509a7.341 7.341 0 000-10.378"
+      fill="#8dd35f"></path><path d="M167.436 51.52L117.693 1.783a7.336 7.336 0
+      00-10.374 0l-49.51 49.509a7.339 7.339 0 000 10.378l49.741 49.74a7.338
+      7.338 0 0010.376-.001l49.51-49.508a7.341 7.341 0 000-10.38"
+      fill="#80b3ff"></path><path d="M230.13 114.117l-49.743-49.739a7.336 7.336
+      0 00-10.374 0l-49.51 49.51a7.339 7.339 0 000 10.378l49.741 49.738a7.338
+      7.338 0 0010.376 0l49.51-49.508a7.341 7.341 0 000-10.379"
+      fill="#ffe680"></path></g></svg>
+    options:
+      command: C:\Users\Kratos\scoop\apps\git\current\bin\bash.exe
+      args:
+        - '--login'
+        - '-i'
+      env:
+        WT_SESSION: 0
+    terminalColorScheme: {}
+    type: local
+    id: local:custom:Git-Bash:1639c0f4-f83d-438e-b6ca-1a31b905e8a0
+groups:
+  - id: 99a78819-7c98-4702-892a-5d9fb12e0fa6
+    name: Windows
+configSync:
+  parts: {}
+  host: ''
+hotkeys:
+  toggle-window:
+    - Ctrl-Space
+  copy-current-path: []
+  ctrl-c:
+    - Ctrl-C
+  copy:
+    - Ctrl-Shift-C
+  paste:
+    - Ctrl-Shift-V
+    - Shift-Insert
+  select-all:
+    - Ctrl-Shift-A
+  clear: []
+  zoom-in:
+    - Ctrl-=
+    - Ctrl-Shift-=
+  zoom-out:
+    - Ctrl--
+    - Ctrl-Shift--
+  reset-zoom:
+    - Ctrl-0
+  home:
+    - Home
+  end:
+    - End
+  previous-word:
+    - Ctrl-Left
+  next-word:
+    - Ctrl-Right
+  delete-previous-word:
+    - Ctrl-Backspace
+  delete-line:
+    - Ctrl-Shift-Backspace
+  delete-next-word:
+    - Ctrl-Delete
+  search:
+    - Ctrl-Shift-F
+  pane-focus-all:
+    - Ctrl-Shift-I
+  focus-all-tabs:
+    - Ctrl-Alt-Shift-I
+  scroll-to-top:
+    - Ctrl-PageUp
+  scroll-page-up:
+    - Alt-PageUp
+  scroll-up:
+    - Ctrl-Shift-Up
+  scroll-down:
+    - Ctrl-Shift-Down
+  scroll-page-down:
+    - Alt-PageDown
+  scroll-to-bottom:
+    - Ctrl-PageDown
+  restart-telnet-session: []
+  restart-ssh-session: []
+  launch-winscp: []
+  settings-tab: {}
+  settings:
+    - Ctrl-,
+  serial:
+    - Alt-K
+  restart-serial-session: []
+  new-tab:
+    - Ctrl-Shift-T
+  new-window:
+    - Ctrl-Shift-N
+  profile: {}
+  profile-selectors: {}
+  group-selectors: {}
+  toggle-fullscreen:
+    - F11
+    - Alt-Enter
+  close-tab:
+    - Ctrl-Shift-W
+  reopen-tab:
+    - Ctrl-Shift-Z
+  toggle-last-tab: []
+  rename-tab:
+    - Ctrl-Shift-R
+  next-tab:
+    - Ctrl-Shift-Right
+    - Ctrl-Tab
+  previous-tab:
+    - Ctrl-Shift-Left
+    - Ctrl-Shift-Tab
+  move-tab-left:
+    - Ctrl-Shift-PageUp
+  move-tab-right:
+    - Ctrl-Shift-PageDown
+  rearrange-panes:
+    - Ctrl-Shift
+  duplicate-tab: []
+  restart-tab: []
+  reconnect-tab: []
+  disconnect-tab: []
+  explode-tab:
+    - Ctrl-Shift-.
+  combine-tabs:
+    - Ctrl-Shift-,
+  tab-1:
+    - Alt-1
+  tab-2:
+    - Alt-2
+  tab-3:
+    - Alt-3
+  tab-4:
+    - Alt-4
+  tab-5:
+    - Alt-5
+  tab-6:
+    - Alt-6
+  tab-7:
+    - Alt-7
+  tab-8:
+    - Alt-8
+  tab-9:
+    - Alt-9
+  tab-10:
+    - Alt-0
+  tab-11: []
+  tab-12: []
+  tab-13: []
+  tab-14: []
+  tab-15: []
+  tab-16: []
+  tab-17: []
+  tab-18: []
+  tab-19: []
+  tab-20: []
+  split-right:
+    - Ctrl-Shift-S
+  split-bottom:
+    - Ctrl-Shift-D
+  split-left: []
+  split-top: []
+  pane-nav-right:
+    - Ctrl-Alt-Right
+  pane-nav-down:
+    - Ctrl-Alt-Down
+  pane-nav-up:
+    - Ctrl-Alt-Up
+  pane-nav-left:
+    - Ctrl-Alt-Left
+  pane-nav-previous:
+    - Ctrl-Alt-[
+  pane-nav-next:
+    - Ctrl-Alt-]
+  pane-nav-1: []
+  pane-nav-2: []
+  pane-nav-3: []
+  pane-nav-4: []
+  pane-nav-5: []
+  pane-nav-6: []
+  pane-nav-7: []
+  pane-nav-8: []
+  pane-nav-9: []
+  pane-maximize:
+    - Ctrl-Alt-Enter
+  close-pane: []
+  pane-increase-vertical: []
+  pane-decrease-vertical: []
+  pane-increase-horizontal: []
+  pane-decrease-horizontal: []
+  switch-profile:
+    - Ctrl-Alt-T
+  profile-selector:
+    - Ctrl-Shift-E
+  command-selector:
+    - Ctrl-Shift-P
+  workspace-profile-1: []
+  workspace-profile-2: []
+  workspace-profile-3: []
+  workspace-profile-4: []
+  workspace-profile-5: []
+  mcp-abort-command:
+    - Ctrl-Shift-C
+  ai-assistant-toggle:
+    - Ctrl-Shift-A
+  ai-command-generation:
+    - Ctrl-Shift-G
+  ai-explain-command:
+    - Ctrl-Shift-E
+terminal:
+  searchOptions: {}
+  colorScheme:
+    name: Tabby Default
+    foreground: '#cacaca'
+    background: '#171717'
+    cursor: '#bbbbbb'
+    colors:
+      - '#000000'
+      - '#ff615a'
+      - '#b1e969'
+      - '#ebd99c'
+      - '#5da9f6'
+      - '#e86aff'
+      - '#82fff7'
+      - '#dedacf'
+      - '#313131'
+      - '#f58c80'
+      - '#ddf88f'
+      - '#eee5b2'
+      - '#a5c7ff'
+      - '#ddaaff'
+      - '#b7fff9'
+      - '#ffffff'
+  customColorSchemes: []
+  lightColorScheme:
+    name: Tabby Default Light
+    foreground: '#4d4d4c'
+    background: '#ffffff'
+    cursor: '#4d4d4c'
+    colors:
+      - '#000000'
+      - '#c82829'
+      - '#718c00'
+      - '#eab700'
+      - '#4271ae'
+      - '#8959a8'
+      - '#3e999f'
+      - '#ffffff'
+      - '#000000'
+      - '#c82829'
+      - '#718c00'
+      - '#eab700'
+      - '#4271ae'
+      - '#8959a8'
+      - '#3e999f'
+      - '#ffffff'
+  bell: visual
+  setComSpec: true
+  pasteOnMiddleClick: true
+  profile: local:default
+  showTabProfileIcon: true
+ssh:
+  knownHosts:
+    - host: github.com
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM=
+    - host: 10.1.1.1
+      port: 22
+      type: ssh-rsa
+      digest: KIyFZsxbr/Aw7SJeg4ybI6q/erZgJtYE7GRhslewpzc=
+    - host: 152.42.191.40
+      port: 2222
+      type: ssh-rsa
+      digest: +70/mBXmIBsW0vLlQMpRw9GR8PTjsNwMUA5Z3SNV3PQ=
+    - host: warp.nulled.ai
+      port: 2222
+      type: ssh-rsa
+      digest: +70/mBXmIBsW0vLlQMpRw9GR8PTjsNwMUA5Z3SNV3PQ=
+clickableLinks:
+  modifier: ctrlKey
+accessibility: {}
+appearance:
+  colorSchemeMode: auto
+  frame: native
+  flexTabs: true
+hacks: {}
+providerBlacklist: []
+commandBlacklist: []
+enableAnalytics: false
+enableWelcomeTab: false
+pluginBlacklist: []
+vault:
+  version: 1
+  contents: CuXZyX8gQKmOagRvpmBowg==
+  keySalt: 39d48b1a24dfe19f
+  iv: 7155297051258b1ff8e3d951fe881d0c
+profileDefaults:
+  ssh:
+    disableDynamicTitle: true
+    type: ssh
+    options:
+      algorithms:
+        hmac:
+          - hmac-sha1
+          - hmac-sha1-etm@openssh.com
+          - hmac-sha2-256
+          - hmac-sha2-256-etm@openssh.com
+          - hmac-sha2-512
+          - hmac-sha2-512-etm@openssh.com
+        kex:
+          - curve25519-sha256
+          - curve25519-sha256@libssh.org
+          - diffie-hellman-group14-sha256
+          - diffie-hellman-group16-sha512
+          - ext-info-c
+          - ext-info-s
+          - kex-strict-c-v00@openssh.com
+          - kex-strict-s-v00@openssh.com
+          - mlkem768x25519-sha256
+        cipher:
+          - aes128-ctr
+          - aes192-ctr
+          - aes256-ctr
+          - aes256-gcm@openssh.com
+          - chacha20-poly1305@openssh.com
+        serverHostKey:
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp521
+          - rsa-sha2-256
+          - rsa-sha2-512
+          - ssh-ed25519
+          - ssh-rsa
+        compression:
+          - none
+      input: {}
+      privateKeys: []
+      forwardedPorts: []
+      scripts:
+        - expect: ''
+          send: ''
+    terminalColorScheme:
+      name: Wez
+      foreground: '#b3b3b3'
+      background: '#000000'
+      cursor: '#53ae71'
+      colors:
+        - '#000000'
+        - '#cc5555'
+        - '#55cc55'
+        - '#cdcd55'
+        - '#5555cc'
+        - '#cc55cc'
+        - '#7acaca'
+        - '#cccccc'
+        - '#555555'
+        - '#ff5555'
+        - '#55ff55'
+        - '#ffff55'
+        - '#5555ff'
+        - '#ff55ff'
+        - '#55ffff'
+        - '#ffffff'
+  local:
+    type: local
+    options:
+      env:
+        PATH: >-
+          $PATH:$(cygpath -u "$USERPROFILE")/.claude/local:$(cygpath -u
+          "$USERPROFILE")/scoop/shims
+      args: []
+    terminalColorScheme:
+      name: WildCherry
+      foreground: '#dafaff'
+      background: '#1f1726'
+      cursor: '#dd00ff'
+      colors:
+        - '#000507'
+        - '#d94085'
+        - '#2ab250'
+        - '#ffd16f'
+        - '#883cdc'
+        - '#ececec'
+        - '#c1b8b7'
+        - '#fff8de'
+        - '#009cc9'
+        - '#da6bac'
+        - '#f4dca5'
+        - '#eac066'
+        - '#308cba'
+        - '#ae636b'
+        - '#ff919d'
+        - '#e4838d'
+profileBlacklist:
+  - local:git-bash
+workspaceManager: {}
+warpgate:
+  servers:
+    - name: VPS-Ocean
+      url: https://warp.nulled.ai:8888
+      username: Alaa
+      password: SilverShadow1@3
+      trustSelfSigned: true
+      enabled: true
+      id: wg-1767521379587-jy04zq5ac
+      lastConnected: '2026-01-05T12:57:33.530Z'
+  sortBy: server
+  pinnedHosts:
+    - wg-1767521379587-jy04zq5ac:Mikrotik A4
+mcp:
+  pairProgrammingMode:
+    enabled: true
+syncConfig:
+  type: GitHub
+  encryption: true
+sshAuthSocket: {}
+docker: {}
+plugin:
+  serverStats:
+    location: {}
+    style: {}
+    customMetrics:
+      - id: '1767440310280162'
+        label: Uptime
+        command: >-
+          awk '{d=int($1/86400); h=int(($1%86400)/3600); print d"d "h"h"}'
+          /proc/uptime
+        type: text
+        color: '#00b894'
+        maxValue: 100
+        suffix: ''
+      - id: '1767440315029018'
+        label: Temp
+        command: >-
+          cat /sys/class/thermal/thermal_zone0/temp 2>/dev/null | awk '{print
+          int($1/1000)}' || echo 0
+        type: text
+        color: '#ff7675'
+        maxValue: 100
+        suffix: °C
+      - id: '1767440322181380'
+        label: Load
+        command: cat /proc/loadavg | awk '{print $1}'
+        type: text
+        color: '#fdcb6e'
+        maxValue: 100
+        suffix: ''
+      - id: '1767440324344117'
+        label: Users
+        command: who | grep -c pts
+        type: text
+        color: '#0984e3'
+        maxValue: 100
+        suffix: ''
+      - id: '1767440325605161'
+        label: Docker
+        command: docker ps -q 2>/dev/null | wc -l
+        type: text
+        color: '#0db7ed'
+        maxValue: 100
+        suffix: ' run'
+      - id: '1767440327059730'
+        label: GPU
+        command: >-
+          nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits
+          2>/dev/null || echo 0
+        type: progress
+        color: '#76b900'
+        maxValue: 100
+        suffix: '%'
+aiAssistant:
+  providers:
+    openai: {}
+    anthropic: {}
+    minimax: {}
+    glm: {}
+    openaiCompatible: {}
+  security: {}

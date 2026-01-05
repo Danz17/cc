@@ -1,0 +1,680 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-05",
+  "author": "Phenix (Alaa Qweider)",
+  "repository": "Danz17/cc",
+  "stats": {
+    "totalCli": 6,
+    "totalTools": 45,
+    "totalSubmodules": 51
+  },
+  "cli": {
+    "claude-code": {
+      "repo": "anthropics/claude-code",
+      "stars": 51429,
+      "version": "latest",
+      "type": "cli",
+      "purpose": {
+        "dev": "Official Claude Code agentic coding tool in terminal",
+        "usage": ""
+      }
+    },
+    "codex": {
+      "repo": "openai/codex",
+      "stars": 55268,
+      "version": "latest",
+      "type": "cli",
+      "purpose": {
+        "dev": "Lightweight coding agent in terminal by OpenAI",
+        "usage": ""
+      }
+    },
+    "codex-cli": {
+      "repo": "microsoft/Codex-CLI",
+      "stars": 2299,
+      "version": "latest",
+      "type": "cli",
+      "purpose": {
+        "dev": "Natural language to Bash/ZShell/PowerShell commands",
+        "usage": ""
+      }
+    },
+    "opencode": {
+      "repo": "anomalyco/opencode",
+      "stars": 49087,
+      "version": "latest",
+      "type": "cli",
+      "purpose": {
+        "dev": "Open source coding agent CLI",
+        "usage": ""
+      }
+    },
+    "continue": {
+      "repo": "continuedev/continue",
+      "stars": 30680,
+      "version": "latest",
+      "type": "cli",
+      "purpose": {
+        "dev": "Continuous AI coding agent with TUI/Headless mode",
+        "usage": ""
+      }
+    },
+    "crush": {
+      "repo": "charmbracelet/crush",
+      "stars": 16710,
+      "version": "latest",
+      "type": "cli",
+      "purpose": {
+        "dev": "Glamourous AI coding agent for terminal",
+        "usage": ""
+      }
+    }
+  },
+  "tools": {
+    "ccr": {
+      "repo": "musistudio/claude-code-router",
+      "stars": 24722,
+      "version": "2.0.0",
+      "type": "cli",
+      "category": "router",
+      "purpose": {
+        "dev": "Route Claude Code requests to different LLM providers",
+        "usage": ""
+      }
+    },
+    "ccnexus": {
+      "repo": "lich0821/ccNexus",
+      "stars": 586,
+      "version": "latest",
+      "type": "cli",
+      "category": "router",
+      "purpose": {
+        "dev": "Intelligent API gateway for Claude Code and Codex CLI",
+        "usage": ""
+      }
+    },
+    "codex-openai-proxy": {
+      "repo": "Securiteru/codex-openai-proxy",
+      "stars": 61,
+      "version": "latest",
+      "type": "library",
+      "category": "router",
+      "purpose": {
+        "dev": "Proxy server to use ChatGPT Plus tokens with Claude Code",
+        "usage": ""
+      }
+    },
+    "context7": {
+      "repo": "upstash/context7",
+      "stars": 40923,
+      "version": "latest",
+      "type": "library",
+      "category": "router",
+      "purpose": {
+        "dev": "Context7 MCP Server for code documentation",
+        "usage": ""
+      }
+    },
+    "fastmcp": {
+      "repo": "jlowin/fastmcp",
+      "stars": 21703,
+      "version": "latest",
+      "type": "library",
+      "category": "router",
+      "purpose": {
+        "dev": "Fast, Pythonic way to build MCP servers",
+        "usage": ""
+      }
+    },
+    "ccs": {
+      "repo": "kaitranntt/ccs",
+      "stars": 0,
+      "version": "latest",
+      "type": "cli",
+      "category": "task-management",
+      "purpose": {
+        "dev": "Config switch CLI for Claude Code",
+        "usage": ""
+      }
+    },
+    "claude-squad": {
+      "repo": "smtg-ai/claude-squad",
+      "stars": 0,
+      "version": "latest",
+      "type": "cli",
+      "category": "task-management",
+      "purpose": {
+        "dev": "Claude Code Squad local proxy wrapper",
+        "usage": ""
+      }
+    },
+    "vibe-kanban": {
+      "repo": "BloopAI/vibe-kanban",
+      "stars": 12800,
+      "version": "latest",
+      "type": "gui",
+      "category": "task-management",
+      "purpose": {
+        "dev": "Task management and orchestration for Claude Code and Codex",
+        "usage": ""
+      }
+    },
+    "claude-flow": {
+      "repo": "ruvnet/claude-flow",
+      "stars": 11100,
+      "version": "latest",
+      "type": "cli",
+      "category": "task-management",
+      "purpose": {
+        "dev": "Enterprise AI orchestration for multi-agent swarms",
+        "usage": ""
+      }
+    },
+    "claude-task-master": {
+      "repo": "eyaltoledano/claude-task-master",
+      "stars": 24615,
+      "version": "latest",
+      "type": "library",
+      "category": "task-management",
+      "purpose": {
+        "dev": "AI-powered task management for Cursor, Lovable, Windsurf",
+        "usage": ""
+      }
+    },
+    "plandex": {
+      "repo": "plandex-ai/plandex",
+      "stars": 14852,
+      "version": "latest",
+      "type": "cli",
+      "category": "task-management",
+      "purpose": {
+        "dev": "Open source AI coding agent for large projects",
+        "usage": ""
+      }
+    },
+    "ccmanager": {
+      "repo": "kbwo/ccmanager",
+      "stars": 733,
+      "version": "latest",
+      "type": "cli",
+      "category": "task-management",
+      "purpose": {
+        "dev": "Session Manager for Claude Code / Gemini CLI / Codex CLI",
+        "usage": ""
+      }
+    },
+    "agents": {
+      "repo": "wshobson/agents",
+      "stars": 24353,
+      "version": "latest",
+      "type": "library",
+      "category": "task-management",
+      "purpose": {
+        "dev": "Intelligent automation and multi-agent orchestration",
+        "usage": ""
+      }
+    },
+    "awesome-claude-agents": {
+      "repo": "vijaythecoder/awesome-claude-agents",
+      "stars": 3658,
+      "version": "latest",
+      "type": "library",
+      "category": "task-management",
+      "purpose": {
+        "dev": "Orchestrated sub agent dev team powered by Claude Code",
+        "usage": ""
+      }
+    },
+    "cline": {
+      "repo": "cline/cline",
+      "stars": 56684,
+      "version": "latest",
+      "type": "gui",
+      "category": "task-management",
+      "purpose": {
+        "dev": "Autonomous coding agent in IDE",
+        "usage": ""
+      }
+    },
+    "superclaude": {
+      "repo": "SuperClaude-Org/SuperClaude_Framework",
+      "stars": 19806,
+      "version": "latest",
+      "type": "library",
+      "category": "framework",
+      "purpose": {
+        "dev": "Configuration framework with specialized commands and personas",
+        "usage": ""
+      }
+    },
+    "superpowers": {
+      "repo": "obra/superpowers",
+      "stars": 13879,
+      "version": "latest",
+      "type": "library",
+      "category": "framework",
+      "purpose": {
+        "dev": "Claude Code superpowers core skills library",
+        "usage": ""
+      }
+    },
+    "claude-agent-sdk": {
+      "repo": "anthropics/claude-agent-sdk-python",
+      "stars": 3845,
+      "version": "latest",
+      "type": "library",
+      "category": "framework",
+      "purpose": {
+        "dev": "Official Claude Agent SDK for Python",
+        "usage": ""
+      }
+    },
+    "serena": {
+      "repo": "oraios/serena",
+      "stars": 18102,
+      "version": "latest",
+      "type": "library",
+      "category": "framework",
+      "purpose": {
+        "dev": "Coding agent toolkit with semantic retrieval/editing",
+        "usage": ""
+      }
+    },
+    "deepcode": {
+      "repo": "HKUDS/DeepCode",
+      "stars": 13495,
+      "version": "latest",
+      "type": "library",
+      "category": "framework",
+      "purpose": {
+        "dev": "Open Agentic Coding (Paper2Code & Text2Web)",
+        "usage": ""
+      }
+    },
+    "quantalogic": {
+      "repo": "quantalogic/quantalogic",
+      "stars": 459,
+      "version": "latest",
+      "type": "library",
+      "category": "framework",
+      "purpose": {
+        "dev": "ReAct Agent coding framework",
+        "usage": ""
+      }
+    },
+    "agentcoder": {
+      "repo": "huangd1999/AgentCoder",
+      "stars": 368,
+      "version": "latest",
+      "type": "library",
+      "category": "framework",
+      "purpose": {
+        "dev": "Multi-agent code generation framework",
+        "usage": ""
+      }
+    },
+    "hof": {
+      "repo": "hofstadter-io/hof",
+      "stars": 575,
+      "version": "latest",
+      "type": "cli",
+      "category": "framework",
+      "purpose": {
+        "dev": "CUE-centered dev experience with agentic code generation",
+        "usage": ""
+      }
+    },
+    "opcode": {
+      "repo": "winfunc/opcode",
+      "stars": 19710,
+      "version": "latest",
+      "type": "gui",
+      "category": "gui",
+      "purpose": {
+        "dev": "Powerful GUI app and Toolkit for Claude Code",
+        "usage": ""
+      }
+    },
+    "codexia": {
+      "repo": "milisp/codexia",
+      "stars": 343,
+      "version": "latest",
+      "type": "gui",
+      "category": "gui",
+      "purpose": {
+        "dev": "GUI/IDE and Toolkit for Codex CLI + Claude Code",
+        "usage": ""
+      }
+    },
+    "void": {
+      "repo": "voideditor/void",
+      "stars": 27950,
+      "version": "latest",
+      "type": "gui",
+      "category": "gui",
+      "purpose": {
+        "dev": "Open-source AI code editor alternative",
+        "usage": ""
+      }
+    },
+    "onlook": {
+      "repo": "onlook-dev/onlook",
+      "stars": 23654,
+      "version": "latest",
+      "type": "gui",
+      "category": "gui",
+      "purpose": {
+        "dev": "Cursor for Designers - AI-first visual React builder",
+        "usage": ""
+      }
+    },
+    "avante-nvim": {
+      "repo": "yetone/avante.nvim",
+      "stars": 17017,
+      "version": "latest",
+      "type": "gui",
+      "category": "gui",
+      "purpose": {
+        "dev": "Use Neovim like Cursor AI IDE",
+        "usage": ""
+      }
+    },
+    "mysti": {
+      "repo": "DeepMyst/Mysti",
+      "stars": 786,
+      "version": "latest",
+      "type": "gui",
+      "category": "gui",
+      "purpose": {
+        "dev": "Claude Code + OpenAI Codex brainstorm mode for VS Code",
+        "usage": ""
+      }
+    },
+    "codex-bar": {
+      "repo": "steipete/CodexBar",
+      "stars": 1431,
+      "version": "latest",
+      "type": "gui",
+      "category": "gui",
+      "purpose": {
+        "dev": "Show usage stats for OpenAI Codex and Claude Code (macOS)",
+        "usage": ""
+      }
+    },
+    "awesome-mcp-servers": {
+      "repo": "punkpeye/awesome-mcp-servers",
+      "stars": 78138,
+      "version": "latest",
+      "type": "library",
+      "category": "mcp",
+      "purpose": {
+        "dev": "Collection of MCP servers",
+        "usage": ""
+      }
+    },
+    "github-mcp": {
+      "repo": "github/github-mcp-server",
+      "stars": 25637,
+      "version": "latest",
+      "type": "library",
+      "category": "mcp",
+      "purpose": {
+        "dev": "GitHub's official MCP Server",
+        "usage": ""
+      }
+    },
+    "playwright-mcp": {
+      "repo": "microsoft/playwright-mcp",
+      "stars": 25094,
+      "version": "latest",
+      "type": "library",
+      "category": "mcp",
+      "purpose": {
+        "dev": "Playwright MCP server for browser automation",
+        "usage": ""
+      }
+    },
+    "figma-mcp": {
+      "repo": "GLips/Figma-Context-MCP",
+      "stars": 12404,
+      "version": "latest",
+      "type": "library",
+      "category": "mcp",
+      "purpose": {
+        "dev": "MCP server providing Figma layouts to Cursor",
+        "usage": ""
+      }
+    },
+    "n8n-mcp": {
+      "repo": "czlonkowski/n8n-mcp",
+      "stars": 11342,
+      "version": "latest",
+      "type": "library",
+      "category": "mcp",
+      "purpose": {
+        "dev": "MCP for Claude/Cursor/Windsurf to build n8n workflows",
+        "usage": ""
+      }
+    },
+    "claude-code-mcp": {
+      "repo": "steipete/claude-code-mcp",
+      "stars": 988,
+      "version": "latest",
+      "type": "library",
+      "category": "mcp",
+      "purpose": {
+        "dev": "Claude Code as one-shot MCP server (agent in agent)",
+        "usage": ""
+      }
+    },
+    "obsidian-mcp": {
+      "repo": "iansinnott/obsidian-claude-code-mcp",
+      "stars": 129,
+      "version": "latest",
+      "type": "library",
+      "category": "mcp",
+      "purpose": {
+        "dev": "Connect Claude Code to Obsidian notes via MCP",
+        "usage": ""
+      }
+    },
+    "copilot-mcp": {
+      "repo": "VikashLoomba/copilot-mcp",
+      "stars": 454,
+      "version": "latest",
+      "type": "gui",
+      "category": "mcp",
+      "purpose": {
+        "dev": "VSCode extension to install MCP servers for Copilot/Claude",
+        "usage": ""
+      }
+    },
+    "mcp-pointer": {
+      "repo": "etsd-tech/mcp-pointer",
+      "stars": 556,
+      "version": "latest",
+      "type": "library",
+      "category": "mcp",
+      "purpose": {
+        "dev": "MCP tool to point at DOM elements for agentic coding",
+        "usage": ""
+      }
+    },
+    "mcp-init": {
+      "repo": "Eyalbenba/claude-code-mcp-init",
+      "stars": 72,
+      "version": "latest",
+      "type": "cli",
+      "category": "mcp",
+      "purpose": {
+        "dev": "Lightweight CLI to configure and initialize MCPs",
+        "usage": ""
+      }
+    },
+    "ccusage": {
+      "repo": "ryoppippi/ccusage",
+      "stars": 9567,
+      "version": "latest",
+      "type": "cli",
+      "category": "productivity",
+      "purpose": {
+        "dev": "CLI tool for analyzing Claude Code/Codex CLI usage",
+        "usage": ""
+      }
+    },
+    "zcf": {
+      "repo": "UfoMiao/zcf",
+      "stars": 5000,
+      "version": "latest",
+      "type": "cli",
+      "category": "productivity",
+      "purpose": {
+        "dev": "Zero-config, one-click setup for Claude Code & Codex",
+        "usage": ""
+      }
+    },
+    "claude-code-studio": {
+      "repo": "arnaldo-delisio/claude-code-studio",
+      "stars": 187,
+      "version": "latest",
+      "type": "library",
+      "category": "productivity",
+      "purpose": {
+        "dev": "Transform Claude Code into complete dev studio with 40+ agents",
+        "usage": ""
+      }
+    },
+    "async-code": {
+      "repo": "ObservedObserver/async-code",
+      "stars": 500,
+      "version": "latest",
+      "type": "cli",
+      "category": "productivity",
+      "purpose": {
+        "dev": "Perform multiple tasks in parallel with Codex-style UI",
+        "usage": ""
+      }
+    },
+    "oh-my-opencode": {
+      "repo": "code-yeongyu/oh-my-opencode",
+      "stars": 8519,
+      "version": "latest",
+      "type": "cli",
+      "category": "productivity",
+      "purpose": {
+        "dev": "Battery-included plugin with async subagents",
+        "usage": ""
+      }
+    },
+    "catnip": {
+      "repo": "wandb/catnip",
+      "stars": 394,
+      "version": "latest",
+      "type": "cli",
+      "category": "productivity",
+      "purpose": {
+        "dev": "Highly addictive agentic coding tool by W&B",
+        "usage": ""
+      }
+    },
+    "arrakis": {
+      "repo": "abshkbh/arrakis",
+      "stars": 739,
+      "version": "latest",
+      "type": "library",
+      "category": "productivity",
+      "purpose": {
+        "dev": "Self-hosted sandboxing for AI agent code execution",
+        "usage": ""
+      }
+    },
+    "cursor-help": {
+      "repo": "yuaotian/go-cursor-help",
+      "stars": 25465,
+      "version": "latest",
+      "type": "cli",
+      "category": "productivity",
+      "purpose": {
+        "dev": "Solve Cursor free subscription/trial limit issues",
+        "usage": ""
+      }
+    },
+    "am-i-vibing": {
+      "repo": "ascorbic/am-i-vibing",
+      "stars": 333,
+      "version": "latest",
+      "type": "library",
+      "category": "productivity",
+      "purpose": {
+        "dev": "Detect agentic coding environments and AI editors",
+        "usage": ""
+      }
+    },
+    "open-codex": {
+      "repo": "codingmoh/open-codex",
+      "stars": 664,
+      "version": "latest",
+      "type": "cli",
+      "category": "productivity",
+      "purpose": {
+        "dev": "Fully open-source command-line AI assistant",
+        "usage": ""
+      }
+    },
+    "system-prompts": {
+      "repo": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "stars": 105760,
+      "version": "latest",
+      "type": "library",
+      "category": "resources",
+      "purpose": {
+        "dev": "System prompts collection for Claude Code, Cursor, etc.",
+        "usage": ""
+      }
+    },
+    "awesome-claude-code": {
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 19389,
+      "version": "latest",
+      "type": "library",
+      "category": "resources",
+      "purpose": {
+        "dev": "Curated list of awesome commands and workflows",
+        "usage": ""
+      }
+    },
+    "awesome-cursorrules": {
+      "repo": "PatrickJS/awesome-cursorrules",
+      "stars": 36710,
+      "version": "latest",
+      "type": "library",
+      "category": "resources",
+      "purpose": {
+        "dev": "Configuration files to enhance Cursor AI editor",
+        "usage": ""
+      }
+    },
+    "claude-code-templates": {
+      "repo": "davila7/claude-code-templates",
+      "stars": 14674,
+      "version": "latest",
+      "type": "cli",
+      "category": "resources",
+      "purpose": {
+        "dev": "CLI tool for configuring and monitoring Claude Code",
+        "usage": ""
+      }
+    },
+    "rulebook-ai": {
+      "repo": "botingw/rulebook-ai",
+      "stars": 549,
+      "version": "latest",
+      "type": "library",
+      "category": "resources",
+      "purpose": {
+        "dev": "Universal template for vibe coding with Claude/Gemini/Codex",
+        "usage": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+[submodule "cli/claude-code"]
+	path = cli/claude-code
+	url = https://github.com/anthropics/claude-code
+[submodule "cli/codex-cli"]
+	path = cli/codex-cli
+	url = https://github.com/microsoft/Codex-CLI
+[submodule "cli/crush"]
+	path = cli/crush
+	url = https://github.com/charmbracelet/crush
+[submodule "tools/ccr"]
+	path = tools/ccr
+	url = https://github.com/musistudio/claude-code-router
+[submodule "tools/ccs"]
+	path = tools/ccs
+	url = https://github.com/kaitranntt/ccs
+[submodule "tools/claude-squad"]
+	path = tools/claude-squad
+	url = https://github.com/smtg-ai/claude-squad
