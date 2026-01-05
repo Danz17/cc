@@ -112,3 +112,9 @@
 [submodule "tools/deepcode"]
 	path = tools/deepcode
 	url = https://github.com/HKUDS/DeepCode
+[submodule "tools/serena"]
+	path = tools/serena
+	url = https://github.com/oraios/serena
+[submodule "tools/cursor-help"]
+	path = tools/cursor-help
+	url = https://github.com/yuaotian/go-cursor-help
