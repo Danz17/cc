@@ -88,3 +88,15 @@
 [submodule "tools/fastmcp"]
 	path = tools/fastmcp
 	url = https://github.com/jlowin/fastmcp
+[submodule "tools/claude-agent-sdk"]
+	path = tools/claude-agent-sdk
+	url = https://github.com/anthropics/claude-agent-sdk-python
+[submodule "tools/oh-my-opencode"]
+	path = tools/oh-my-opencode
+	url = https://github.com/code-yeongyu/oh-my-opencode
+[submodule "tools/claude-code-templates"]
+	path = tools/claude-code-templates
+	url = https://github.com/davila7/claude-code-templates
+[submodule "tools/codex-bar"]
+	path = tools/codex-bar
+	url = https://github.com/steipete/CodexBar
