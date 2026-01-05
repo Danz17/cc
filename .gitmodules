@@ -220,3 +220,15 @@
 [submodule "components/pymilvus"]
 	path = components/pymilvus
 	url = https://github.com/milvus-io/pymilvus
+[submodule "components/tree-sitter"]
+	path = components/tree-sitter
+	url = https://github.com/tree-sitter/tree-sitter
+[submodule "components/ripgrep"]
+	path = components/ripgrep
+	url = https://github.com/BurntSushi/ripgrep
+[submodule "components/fd"]
+	path = components/fd
+	url = https://github.com/sharkdp/fd
+[submodule "components/bat"]
+	path = components/bat
+	url = https://github.com/sharkdp/bat
