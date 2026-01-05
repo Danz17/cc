@@ -58,3 +58,30 @@
 [submodule "tools/agentcoder"]
 	path = tools/agentcoder
 	url = https://github.com/huangd1999/AgentCoder
+[submodule "tools/catnip"]
+	path = tools/catnip
+	url = https://github.com/wandb/catnip
+[submodule "tools/arrakis"]
+	path = tools/arrakis
+	url = https://github.com/abshkbh/arrakis
+[submodule "tools/am-i-vibing"]
+	path = tools/am-i-vibing
+	url = https://github.com/ascorbic/am-i-vibing
+[submodule "tools/mysti"]
+	path = tools/mysti
+	url = https://github.com/DeepMyst/Mysti
+[submodule "tools/obsidian-mcp"]
+	path = tools/obsidian-mcp
+	url = https://github.com/iansinnott/obsidian-claude-code-mcp
+[submodule "tools/mcp-pointer"]
+	path = tools/mcp-pointer
+	url = https://github.com/etsd-tech/mcp-pointer
+[submodule "tools/codex-openai-proxy"]
+	path = tools/codex-openai-proxy
+	url = https://github.com/Securiteru/codex-openai-proxy
+[submodule "tools/ccnexus"]
+	path = tools/ccnexus
+	url = https://github.com/lich0821/ccNexus
+[submodule "tools/awesome-claude-agents"]
+	path = tools/awesome-claude-agents
+	url = https://github.com/vijaythecoder/awesome-claude-agents
