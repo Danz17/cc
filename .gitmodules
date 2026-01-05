@@ -16,3 +16,45 @@
 [submodule "tools/claude-squad"]
 	path = tools/claude-squad
 	url = https://github.com/smtg-ai/claude-squad
+[submodule "tools/zcf"]
+	path = tools/zcf
+	url = https://github.com/UfoMiao/zcf
+[submodule "tools/ccmanager"]
+	path = tools/ccmanager
+	url = https://github.com/kbwo/ccmanager
+[submodule "tools/ccusage"]
+	path = tools/ccusage
+	url = https://github.com/ryoppippi/ccusage
+[submodule "tools/superpowers"]
+	path = tools/superpowers
+	url = https://github.com/obra/superpowers
+[submodule "tools/claude-code-studio"]
+	path = tools/claude-code-studio
+	url = https://github.com/arnaldo-delisio/claude-code-studio
+[submodule "tools/async-code"]
+	path = tools/async-code
+	url = https://github.com/ObservedObserver/async-code
+[submodule "tools/codexia"]
+	path = tools/codexia
+	url = https://github.com/milisp/codexia
+[submodule "tools/copilot-mcp"]
+	path = tools/copilot-mcp
+	url = https://github.com/VikashLoomba/copilot-mcp
+[submodule "tools/claude-code-mcp"]
+	path = tools/claude-code-mcp
+	url = https://github.com/steipete/claude-code-mcp
+[submodule "tools/mcp-init"]
+	path = tools/mcp-init
+	url = https://github.com/Eyalbenba/claude-code-mcp-init
+[submodule "tools/rulebook-ai"]
+	path = tools/rulebook-ai
+	url = https://github.com/botingw/rulebook-ai
+[submodule "tools/open-codex"]
+	path = tools/open-codex
+	url = https://github.com/codingmoh/open-codex
+[submodule "tools/quantalogic"]
+	path = tools/quantalogic
+	url = https://github.com/quantalogic/quantalogic
+[submodule "tools/agentcoder"]
+	path = tools/agentcoder
+	url = https://github.com/huangd1999/AgentCoder
