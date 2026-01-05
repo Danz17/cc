@@ -100,3 +100,9 @@
 [submodule "tools/codex-bar"]
 	path = tools/codex-bar
 	url = https://github.com/steipete/CodexBar
+[submodule "tools/vibe-kanban"]
+	path = tools/vibe-kanban
+	url = https://github.com/BloopAI/vibe-kanban
+[submodule "tools/claude-task-master"]
+	path = tools/claude-task-master
+	url = https://github.com/eyaltoledano/claude-task-master
