@@ -178,3 +178,15 @@
 [submodule "terminals/glow"]
 	path = terminals/glow
 	url = https://github.com/charmbracelet/glow
+[submodule "components/python"]
+	path = components/python
+	url = https://github.com/python/cpython
+[submodule "components/rust"]
+	path = components/rust
+	url = https://github.com/rust-lang/rust
+[submodule "components/go"]
+	path = components/go
+	url = https://github.com/golang/go
+[submodule "components/uv"]
+	path = components/uv
+	url = https://github.com/astral-sh/uv
