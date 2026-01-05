@@ -169,3 +169,12 @@
 [submodule "tools/claude-codepro"]
 	path = tools/claude-codepro
 	url = https://github.com/maxritter/claude-codepro
+[submodule "terminals/lazygit"]
+	path = terminals/lazygit
+	url = https://github.com/jesseduffield/lazygit
+[submodule "terminals/lazydocker"]
+	path = terminals/lazydocker
+	url = https://github.com/jesseduffield/lazydocker
+[submodule "terminals/glow"]
+	path = terminals/glow
+	url = https://github.com/charmbracelet/glow
