@@ -118,3 +118,54 @@
 [submodule "tools/cursor-help"]
 	path = tools/cursor-help
 	url = https://github.com/yuaotian/go-cursor-help
+[submodule "cli/gh"]
+	path = cli/gh
+	url = https://github.com/cli/cli
+[submodule "terminals/tabby"]
+	path = terminals/tabby
+	url = https://github.com/Eugeny/tabby
+[submodule "terminals/ghostty"]
+	path = terminals/ghostty
+	url = https://github.com/ghostty-org/ghostty
+[submodule "terminals/alacritty"]
+	path = terminals/alacritty
+	url = https://github.com/alacritty/alacritty
+[submodule "terminals/wezterm"]
+	path = terminals/wezterm
+	url = https://github.com/wez/wezterm
+[submodule "terminals/kitty"]
+	path = terminals/kitty
+	url = https://github.com/kovidgoyal/kitty
+[submodule "terminals/hyper"]
+	path = terminals/hyper
+	url = https://github.com/vercel/hyper
+[submodule "terminals/rio"]
+	path = terminals/rio
+	url = https://github.com/raphamorim/rio
+[submodule "terminals/zellij"]
+	path = terminals/zellij
+	url = https://github.com/zellij-org/zellij
+[submodule "terminals/windows-terminal"]
+	path = terminals/windows-terminal
+	url = https://github.com/microsoft/terminal
+[submodule "tools/claude-sub-agent"]
+	path = tools/claude-sub-agent
+	url = https://github.com/zhsama/claude-sub-agent
+[submodule "tools/claude-code-workflow"]
+	path = tools/claude-code-workflow
+	url = https://github.com/catlog22/Claude-Code-Workflow
+[submodule "tools/claude-workflow-v2"]
+	path = tools/claude-workflow-v2
+	url = https://github.com/CloudAI-X/claude-workflow-v2
+[submodule "tools/myclaude"]
+	path = tools/myclaude
+	url = https://github.com/cexll/myclaude
+[submodule "tools/claude-code-spec-workflow"]
+	path = tools/claude-code-spec-workflow
+	url = https://github.com/Pimzino/claude-code-spec-workflow
+[submodule "tools/crystal"]
+	path = tools/crystal
+	url = https://github.com/stravu/crystal
+[submodule "tools/claude-codepro"]
+	path = tools/claude-codepro
+	url = https://github.com/maxritter/claude-codepro
