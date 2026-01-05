@@ -106,3 +106,9 @@
 [submodule "tools/claude-task-master"]
 	path = tools/claude-task-master
 	url = https://github.com/eyaltoledano/claude-task-master
+[submodule "tools/awesome-claude-code"]
+	path = tools/awesome-claude-code
+	url = https://github.com/hesreallyhim/awesome-claude-code
+[submodule "tools/deepcode"]
+	path = tools/deepcode
+	url = https://github.com/HKUDS/DeepCode
