@@ -190,3 +190,15 @@
 [submodule "components/uv"]
 	path = components/uv
 	url = https://github.com/astral-sh/uv
+[submodule "components/nvm"]
+	path = components/nvm
+	url = https://github.com/nvm-sh/nvm
+[submodule "components/pyenv"]
+	path = components/pyenv
+	url = https://github.com/pyenv/pyenv
+[submodule "components/rbenv"]
+	path = components/rbenv
+	url = https://github.com/rbenv/rbenv
+[submodule "components/rustup"]
+	path = components/rustup
+	url = https://github.com/rust-lang/rustup
