@@ -1,3 +1,10 @@
+# Submodule directories (use -f flag to add new submodules)
+# These are tracked via .gitmodules, this prevents accidental untracked files
+/cli/
+/tools/
+/components/
+/terminals/
+
 # Dependencies
 node_modules/
 .pnpm-store/
