@@ -202,3 +202,15 @@
 [submodule "components/rustup"]
 	path = components/rustup
 	url = https://github.com/rust-lang/rustup
+[submodule "components/asdf"]
+	path = components/asdf
+	url = https://github.com/asdf-vm/asdf
+[submodule "components/fnm"]
+	path = components/fnm
+	url = https://github.com/Schniz/fnm
+[submodule "components/just"]
+	path = components/just
+	url = https://github.com/casey/just
+[submodule "components/cargo-make"]
+	path = components/cargo-make
+	url = https://github.com/sagiegurari/cargo-make
