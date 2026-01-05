@@ -214,3 +214,9 @@
 [submodule "components/cargo-make"]
 	path = components/cargo-make
 	url = https://github.com/sagiegurari/cargo-make
+[submodule "components/tavily"]
+	path = components/tavily
+	url = https://github.com/tavily-ai/tavily-python
+[submodule "components/pymilvus"]
+	path = components/pymilvus
+	url = https://github.com/milvus-io/pymilvus
